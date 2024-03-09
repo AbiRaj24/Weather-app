@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(241, 169, 183);
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:350px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+.input-container{
+    width:100%;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.city-input{
+flex:1;
+height: 40px;
+border:none;
+outline:none;
+padding:10px;
+}
+.button button{
+    height: 40px;
+    background-color: crimson;
+    border:none;
+    font-weight: bold;
+}
+
+.image{
+    text-align: center;
+    height: 150px;
+    margin-top: 10px;
+}
+.image img{
+    width:160px;
+    height:160px;
+}
+
+.temp,.location,.country{
+    margin-top: 5px;
+    font-family: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.temp{
+    font-weight: 500;
+}
+.location{
+    color:#ffbc00 ;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.country{
+    font-size: 18px;
+    color:#888;
+    font-weight: 500;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cord div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+.cord div span{
+    font-size: 14px;
+}
+.humidity-percent
+.cord div span:nth-child(2){
+font-size: 18px;
+font-weight: bold;
+color:#666;
+padding-top: 5px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.element{
+    text-align: center;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.text{
+    font-size: 14px;
+    color:#888;
+}
